@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vscode-remote-try-dotnet", "vscode-remote-try-dotnet.csproj", "{2F5BDAD9-7D08-4081-94C7-3DB66205EF01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A501BE2A-D8FD-4496-9D8A-8F2BEB8F2E2E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "kangaroo", "src\kangaroo\kangaroo.csproj", "{E8D771EF-6708-4EDF-9C74-4C95EE6F8881}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hackerrank", "hackerrank", "{5F508746-A2BC-4E3F-B94A-FBDB6B6862D7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BetweenTwoSets", "src\hackerrank\BetweenTwoSets\BetweenTwoSets.csproj", "{E3B13E6D-DF94-4279-92A0-B6EC7674E41E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2F5BDAD9-7D08-4081-94C7-3DB66205EF01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F5BDAD9-7D08-4081-94C7-3DB66205EF01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F5BDAD9-7D08-4081-94C7-3DB66205EF01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F5BDAD9-7D08-4081-94C7-3DB66205EF01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8D771EF-6708-4EDF-9C74-4C95EE6F8881}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8D771EF-6708-4EDF-9C74-4C95EE6F8881}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8D771EF-6708-4EDF-9C74-4C95EE6F8881}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8D771EF-6708-4EDF-9C74-4C95EE6F8881}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E3B13E6D-DF94-4279-92A0-B6EC7674E41E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3B13E6D-DF94-4279-92A0-B6EC7674E41E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3B13E6D-DF94-4279-92A0-B6EC7674E41E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3B13E6D-DF94-4279-92A0-B6EC7674E41E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E8D771EF-6708-4EDF-9C74-4C95EE6F8881} = {A501BE2A-D8FD-4496-9D8A-8F2BEB8F2E2E}
+		{5F508746-A2BC-4E3F-B94A-FBDB6B6862D7} = {A501BE2A-D8FD-4496-9D8A-8F2BEB8F2E2E}
+		{E3B13E6D-DF94-4279-92A0-B6EC7674E41E} = {5F508746-A2BC-4E3F-B94A-FBDB6B6862D7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51FB8A8F-C8F7-4F61-A20E-6414FF81A054}
+	EndGlobalSection
+EndGlobal
